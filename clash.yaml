@@ -8,7 +8,7 @@ rule-providers:
   AdBlock:
     type: http
     behavior: classical
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_basicads.yaml
+    url: https://clashandroid.neocities.org/rule_basicads.yaml.txt
     path: "./rule_provider/rule_basicads.yaml"
     interval: 86400
   Personalads:
