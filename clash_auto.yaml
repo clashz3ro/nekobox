@@ -2,13 +2,13 @@ rule-providers:
   clash:
     type: http
     behavior: domain
-    url: https://howdy.id/download/rules/clash.txt
+    url: "https://howdy.id/download/rules/clash.txt"
     path: ./providers/rule-provider_clash.yaml
     interval: 86400
   Personalads:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/clashz3ro/nekobox/main/rule_personalads.yaml.txt
+    url: "https://raw.githubusercontent.com/clashz3ro/nekobox/main/rule_personalads.yaml.txt"
     path: "./rule_provider/rule_personalads.yaml"
     interval: 86400
 proxy-providers:
