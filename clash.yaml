@@ -8,7 +8,7 @@ rule-providers:
   Personalads:
     type: http
     behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
+    url: https://raw.githubusercontent.com/clashz3ro/nekobox/main/rule_personalads.yaml.txt
     path: "./rule_provider/rule_personalads.yaml"
     interval: 86400
 proxy-providers:
