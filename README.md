@@ -1,1 +1,1 @@
-# nekobox
+CLASH ALL AUTO
