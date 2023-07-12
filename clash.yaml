@@ -5,12 +5,6 @@ rule-providers:
     url: https://howdy.id/download/rules/clash.txt
     path: ./providers/rule-provider_clash.yaml
     interval: 86400
-  AdBlock:
-    type: http
-    behavior: domain
-    url: https://clashandroid.neocities.org/rule_basicads.yaml.txt
-    path: "./rule_provider/rule_basicads.yaml"
-    interval: 86400
   Personalads:
     type: http
     behavior: domain
@@ -46,7 +40,6 @@ proxy-groups:
 rules:
   - DOMAIN-SUFFIX,googlesyndication.com,Tunnel
   - RULE-SET,clash,REJECT
-  - RULE-SET,AdBlock,AdBlock
-  - RULE-SET,Personalads,AdBlock
+  - RULE-SET,Personalads,REJECT
   - MATCH,Tunnel
   
