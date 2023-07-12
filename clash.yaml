@@ -7,13 +7,13 @@ rule-providers:
     interval: 86400
   AdBlock:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://clashandroid.neocities.org/rule_basicads.yaml.txt
     path: "./rule_provider/rule_basicads.yaml"
     interval: 86400
   Personalads:
     type: http
-    behavior: classical
+    behavior: domain
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_personalads.yaml
     path: "./rule_provider/rule_personalads.yaml"
     interval: 86400
