@@ -342,7 +342,6 @@ rules:
 - RULE-SET,rule_hijacking,TrafficAds
 - RULE-SET,rule_privacy,TrafficAds
 - RULE-SET,rule_porn,TrafficPorn
-- RULE-SET,rule_nsfw,TrafficPorn
 - SCRIPT,speedtest,TrafficUmum
 - RULE-SET,rule_playstore,TrafficUmum
 - RULE-SET,rule_disneyplus,TrafficIndo
@@ -490,12 +489,6 @@ rule-providers:
     url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_porn.yaml
     path: "./rule_provider/rule_porn.yaml"
     interval: 86400
-  rule_nsfw:
-    type: http
-    behavior: domain
-    url: https://raw.githubusercontent.com/malikshi/open_clash/main/rule_provider/rule_nsfw.yaml
-    path: "./rule_provider/rule_nsfw.yaml"
-    interval: 43200
   rule_lancidr:
     type: http
     behavior: ipcidr
