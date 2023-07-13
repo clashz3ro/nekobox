@@ -1,26 +1,26 @@
 ---
 proxy-providers:
   VVIP-IPTUNNELS-ID:
-    type: file
-    path: "./proxy_provider/vvip-id.yaml"
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 180
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    path: ./providers/rule-provider_clash.yaml
+    interval: 86400
   VVIP-IPTUNNELS-SG:
-    type: file
-    path: "./proxy_provider/vvip-sg.yaml"
+    type: http
+    url: "http://fool.azurewebsites.net/get?limit=10&format=clash&cc=SG,ID&cdn=104.22.25.131&network=ws&arg=xudp,key:value&mode=cdn&pass=qk4ndl7g"
+    interval: 15
+    path: ./provider.yaml
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 180
+      interval: 240
+      url: https://cp.cloudflare.com/generate_204
   VVIP-IPTUNNELS-GAME:
-    type: file
-    path: "./proxy_provider/vvip-game.yaml"
-    health-check:
-      enable: true
-      url: http://www.gstatic.com/generate_204
-      interval: 180
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    path: ./providers/rule-provider_clash.yaml
+    interval: 86400
 proxy-groups:
 - name: Route VVIP ID
   type: load-balance
