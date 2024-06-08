@@ -1,3 +1,3 @@
 trojan://b8aaa8e4-ecc3-4288-acb8-956f15973aaf@104.26.6.171:443?path=%2Ftrojan&security=tls&host=id-akamai.estebuh.my.id&type=ws&sni=id-akamai.estebuh.my.id#troid_7730_hidessh
 trojan://jagoanssh-freesg1@104.26.6.171:443?path=%2Ftrojan&security=tls&host=sg3go.ipservers.xyz&type=ws&sni=sg3go.ipservers.xyz#freeSG-01
-trojan://0a253ef5-4fdb-4c12-bdca-848533c5485e@104.26.6.171:443?path=%2Ftrojan&security=tls&host=us1.trojanvpn.xyz&type=ws&sni=us1.trojanvpn.xyz&type=ws#freeUS-01
+trojan://0a253ef5-4fdb-4c12-bdca-848533c5485e@104.26.6.171:443?path=%2Ftrojan&security=tls&host=us1.trojanvpn.xyz&type=ws&sni=us1.trojanvpn.xyz&#freeUS-01
